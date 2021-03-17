@@ -1,0 +1,90 @@
+html {
+    --T1-background-color: #284A8C;
+    --T1-foreground-color: #ffffff;
+    --temp-block: #fcf8f8;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body {
+    /* background-color: var(--T1-background-color);
+    color: var(--T1-foreground-color);
+    width: 100%; */
+}
+
+.backi {
+    z-index: -100;
+    position: absolute;
+}
+
+.main-title {
+    font-size: 4rem;
+    color: var(--T1-foreground-color);
+    background-color: var(--T1-background-color);
+}
+
+.navbar {
+    background-color: var(--T1-background-color) !important;
+    color: var(--T1-foreground-color) !important;
+}
+
+.nav-item {
+    color: var(--T1-foreground-color) !important;
+    background-color: var(--T1-foreground-color) !important;
+}
+
+a, nav-link {
+    color: var(--T1-foreground-color) !important;
+    background-color: var(--T1-background-color) !important;
+}
+
+.spacer-block {
+    position: absolute;
+    top: 600px;
+    height: 400px;
+    width: 100%;
+    background-color: white;
+    color: black;
+}
+
+
+
+li, .pg-sections {
+
+    border: 0px;
+    margin-top: 10px;
+
+
+    padding: 0px;
+    list-style: none;
+}
+
+
+
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+.p-size {
+    height: auto;
+    width: 100%;
+}
+
+p{
+
+    font-size: .75rem;
+
+}
+
+.card-text{
+
+min-height: 200px;
+ 
+
+}
