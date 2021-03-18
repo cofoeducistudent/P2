@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 html {
     --T1-background-color: #284A8C;
     --T1-foreground-color: #ffffff;
@@ -53,7 +60,9 @@ a, nav-link :link {
 .nav-link:hover {
     color: var(--T1-hover-color)!important;
     background-color: var(--T1-hover-backg) !important;
-    transition-duration: .4s;
+    -webkit-transition-duration: .4s;
+         -o-transition-duration: .4s;
+            transition-duration: .4s;
     /* font-size: 1rem; */
     outline: solid 1px;
     margin-left: 5px;
