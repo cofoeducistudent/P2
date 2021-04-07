@@ -129,4 +129,8 @@ a, .c-button :link {
 
 }
 
- 
+.card-h{
+
+min-height: 33vh !important;
+
+}
