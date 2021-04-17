@@ -6,10 +6,13 @@
 */
 
 html {
-    --T1-background-color: #284A8C;
+    /* --T1-background-color: #284A8C; */
+--T1-background-color: rgb(41,58,74);
+
+
     --T1-foreground-color: #ffffff;
     --T1-hover-color: #fa7777;
-    --T1-hover-backg: rgb(53, 79, 163);
+    --T1-hover-backg: rgb(41,58,74);
     --T1-writing-color: #ffffff;
     --temp-block: #fcf8f8;
     margin: 0px;
@@ -45,11 +48,11 @@ a, .nav-item {
 }
 
 a, .navbar-brand {
-    background-color: #284A8C !important;
+    background-color: --T1-background-color !important;
 }
 
 a, .nav-link {
-    background-color: #284A8C !important;
+    background-color: var(--T1-background-color) !important;
 }
 
 a, nav-link :link {
@@ -63,11 +66,7 @@ a, nav-link :link {
     -webkit-transition-duration: .4s;
          -o-transition-duration: .4s;
             transition-duration: .4s;
-    /* font-size: 1rem; */
-    outline: solid 1px;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 2px;
+   
 }
 
 .spacer-block {
@@ -117,7 +116,7 @@ h2, .prof-text {
 }
 
 a, .c-button :link {
-    background-color: #21252A !important;
+    background-color: var(--T1-background-color) !important;
     color: #ffffff;
 }
 
