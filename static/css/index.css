@@ -52,6 +52,12 @@ body {
     background-color: var(--T1-background-color);
 }
 
+a, .c-button{
+    text-decoration: none;
+}
+
+
+
 .main-title {
     font-size: 3rem;
     color: var(--T1-foreground-color);
