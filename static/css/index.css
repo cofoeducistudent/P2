@@ -9,7 +9,6 @@ html {
     /* --T1-background-color: #284A8C; */
 --T1-background-color: rgb(41,58,74);
 
-
     --T1-foreground-color: #ffffff;
     --T1-hover-color: #fa7777;
     --T1-hover-backg: rgb(41,58,74);
@@ -31,18 +30,23 @@ body {
     position: absolute;
 }
 
+.cust-btn {
 
+    background-color: var(--T1-background-color) !important;
 
-.cust-btn{
-    background-color: var(--T1-background-color);
 }
+
 .cust-btn :hover{
-    background-color: var(--T1-background-color);
+    
+    background-color: var(--T1-hover-backg) !important;
+    color: var(--T1-hover-color) !important;
+
 }
 
+.c-button :hover{
 
-
-
+    background-color: var(--T1-background-color);
+}
 
 .main-title {
     font-size: 3rem;
@@ -128,17 +132,6 @@ h2, .prof-text {
     /* font-size: 2rem; */
 }
 
-
-
-
-
-
-
-
-
-
-
-
 /* a, .c-button :link {
     background-color: var(--T1-background-color) !important;
     color: #ffffff;
@@ -148,14 +141,6 @@ h2, .prof-text {
     background-color: var(--T1-background-color) !important;
     color: #ffffff;
 } */
-
-
-
-
-
-
-
-
 
 .c-content {
 
