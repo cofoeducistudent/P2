@@ -16,7 +16,10 @@ html {
     /* --T1-background-color: #284A8C; */
     --T1-background-color: rgb(41, 58, 74);
     --T1-foreground-color: #ffffff;
+    
     --T1-hover-color: #fa7777;
+    --T1-linkbg-color:#fa7777;
+
     --T1-hover-backg: rgb(41, 58, 74);
     --T1-writing-color: #ffffff;
     --temp-block: #fcf8f8;
@@ -165,4 +168,7 @@ h2,
 
 .big-orange {
     color: var(--T1-hover-color);
+    
 }
+
+ 
