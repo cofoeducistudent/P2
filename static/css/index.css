@@ -28,12 +28,7 @@ html {
     border: 0px;
 }
 
-body {
-    /* background-color: var(--T1-background-color);
-    color: var(--T1-foreground-color);
-    width: 100%; */
-}
-
+ 
 .backi {
     z-index: -100;
     position: absolute;
@@ -144,19 +139,10 @@ p {
 h2,
 .prof-text {
     font-size: .75rem;
-    /* margin-left: 10px; */
-    /* font-size: 2rem; */
+ 
 }
 
-/* a, .c-button :link {
-    background-color: var(--T1-background-color) !important;
-    color: #ffffff;
-} */
-
-/* a, .c-button :hover{
-    background-color: var(--T1-background-color) !important;
-    color: #ffffff;
-} */
+ 
 
 .c-content {
     color: #888888!important;
