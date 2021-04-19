@@ -5,13 +5,19 @@
 * Browsers: last 4 version
 */
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 html {
     /* --T1-background-color: #284A8C; */
---T1-background-color: rgb(41,58,74);
-
+    --T1-background-color: rgb(41, 58, 74);
     --T1-foreground-color: #ffffff;
     --T1-hover-color: #fa7777;
-    --T1-hover-backg: rgb(41,58,74);
+    --T1-hover-backg: rgb(41, 58, 74);
     --T1-writing-color: #ffffff;
     --temp-block: #fcf8f8;
     margin: 0px;
@@ -31,20 +37,15 @@ body {
 }
 
 .cust-btn {
-
     background-color: var(--T1-background-color) !important;
-
 }
 
-.cust-btn :hover{
-    
+.cust-btn :hover {
     background-color: var(--T1-hover-backg) !important;
     color: var(--T1-hover-color) !important;
-
 }
 
-.c-button :hover{
-
+.c-button :hover {
     background-color: var(--T1-background-color);
 }
 
@@ -54,25 +55,30 @@ body {
     background-color: var(--T1-background-color);
 }
 
-a, .navbar {
+a,
+.navbar {
     background-color: var(--T1-background-color) !important;
     color: var(--T1-foreground-color) !important;
 }
 
-a, .nav-item {
+a,
+.nav-item {
     color: var(--T1-foreground-color) !important;
     background-color: var(--T1-foreground-color) !important;
 }
 
-a, .navbar-brand {
+a,
+.navbar-brand {
     background-color: --T1-background-color !important;
 }
 
-a, .nav-link {
+a,
+.nav-link {
     background-color: var(--T1-background-color) !important;
 }
 
-a, nav-link :link {
+a,
+nav-link :link {
     color: var(--T1-foreground-color) !important;
     background-color: var(--T1-background-color) !important;
 }
@@ -81,9 +87,8 @@ a, nav-link :link {
     color: var(--T1-hover-color)!important;
     background-color: var(--T1-hover-backg) !important;
     -webkit-transition-duration: .4s;
-         -o-transition-duration: .4s;
-            transition-duration: .4s;
-   
+    -o-transition-duration: .4s;
+    transition-duration: .4s;
 }
 
 .spacer-block {
@@ -95,7 +100,8 @@ a, nav-link :link {
     color: black;
 }
 
-li, .pg-sections {
+li,
+.pg-sections {
     border: 0px;
     margin-top: 10px;
     padding: 0px;
@@ -126,7 +132,8 @@ p {
     min-height: 200px;
 }
 
-h2, .prof-text {
+h2,
+.prof-text {
     font-size: .75rem;
     /* margin-left: 10px; */
     /* font-size: 2rem; */
@@ -143,25 +150,19 @@ h2, .prof-text {
 } */
 
 .c-content {
-
-    color:#888888!important;
+    color: #888888!important;
     text-decoration: none;
-
 }
 
-.card-h{
-
-min-height: 33vh !important;
-
+.card-h {
+    min-height: 33vh !important;
 }
 
-.b-shadow{
-
-    box-shadow: 10px 10px 10px #888888 !important;
+.b-shadow {
+    -webkit-box-shadow: 10px 10px 10px #888888 !important;
+            box-shadow: 10px 10px 10px #888888 !important;
 }
 
-.big-orange{
-
+.big-orange {
     color: var(--T1-hover-color);
-
 }
