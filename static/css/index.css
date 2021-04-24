@@ -181,9 +181,9 @@ h2,
     margin-right: auto;
     width: 100%;
     
-    position: absolute;
-    top:100px;
-    z-index: -100;
+    /* position: absolute; */
+    /* top:10px; */
+    /* z-index: -100; */
 }
 
 .drop-shadow{
@@ -223,4 +223,37 @@ h2,
 
     /* background-color: var(--T1-background-color); */
     color: var(--T1-hover-color);
+}
+
+.price-list{
+
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: solid, 1px, black;
+}
+
+.tabspace{
+
+    border: 1px solid;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+table{
+
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.price-row{
+    background-color: var(--T1-hover-color);
+    color: white;
+}
+.price-header{
+    background-color: var(--T1-background-color);
+    color: white;
 }
