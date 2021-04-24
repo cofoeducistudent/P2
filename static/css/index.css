@@ -170,10 +170,22 @@ h2,
     width: 100%;
     
     position: absolute;
-    bottom:0px;
+    top:100px;
+    z-index: -100;
 }
 
 .drop-shadow{
 
     box-shadow: 10px 10px 10px #888888;
+}
+
+.spacer{
+    height: 200px;
+
+}
+
+
+.inner-table{
+
+    width: 100%;
 }
