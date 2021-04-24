@@ -95,6 +95,18 @@ nav-link :link {
     transition-duration: .4s;
 }
 
+
+
+
+
+.navbar-toggler{
+    background-color: white !important;
+}
+
+
+
+
+
 .spacer-block {
     position: absolute;
     top: 600px;
@@ -178,6 +190,12 @@ h2,
 
     box-shadow: 10px 10px 10px #888888;
 }
+.text-shadow{
+
+    text-shadow: 10px 10px 10px #888888;
+}
+
+
 
 .spacer{
     height: 200px;
@@ -187,5 +205,20 @@ h2,
 
 .inner-table{
 
+    font-size: .75rem;
     width: 100%;
+}
+
+.maintenance-banner{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.logo-section{
+    margin-top: 0px;
+    height:20vh;
+    width:auto;
+
+    /* background-color: var(--T1-background-color); */
+    color: var(--T1-hover-color);
 }
