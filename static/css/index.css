@@ -318,7 +318,7 @@ min-height: 100px;
     padding-top: 2px;
     padding-bottom:2px;
 
-    height: 30px;
+    height: 40px;
     width: auto;
 }
 
@@ -354,4 +354,10 @@ ul, li .link-options {
 
     padding-left: 20px;
     list-style-type: disc;
+}
+
+td{
+
+    font-size: 1rem;
+
 }
