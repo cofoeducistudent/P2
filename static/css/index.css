@@ -26,6 +26,18 @@ html {
     margin: 0px;
     padding: 0px;
     border: 0px;
+
+
+
+
+    --bronze:#f7daaf;
+    --silver:#cfc7c7;
+    --gold:#ffe291;
+    --platinum:#dddada;
+    --bespoke:#f8bfbf;
+    --elite:#a3bef0;
+
+
 }
 
  
@@ -264,4 +276,65 @@ table{
     color: var(--T1-background-color);
     background-color: rgb(228, 228, 222);
     font: bold;
+}
+
+.price-card{
+
+min-height: 100px;
+/* width: 100%; */
+
+
+
+}
+
+.card-logo{
+    height: 50px;
+     
+}
+
+.card-color{
+
+    background-color: #f5f4ef;
+}
+
+.quality-mark{
+
+    height: 100px;
+    width: auto;
+}
+
+.check-mark{
+    padding-top: 2px;
+    padding-bottom:2px;
+
+    height: 30px;
+    width: auto;
+}
+
+
+
+.bronze-card{
+
+    background-color: var(--bronze);
+}
+.silver-card{
+
+    background-color: var(--silver);
+}
+
+.gold-card{
+    background-color: var(--gold);
+}
+
+.platinum-card{
+
+    background-color: var(--platinum);
+}
+
+.bespoke-card{
+    background-color: var(--bespoke);
+}
+
+.elite-card{
+    background-color: var(--elite);
 }
