@@ -243,6 +243,7 @@ h2,
 
 table{
 
+    font-size: .75rem;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -251,9 +252,16 @@ table{
 
 .price-row{
     background-color: var(--T1-hover-color);
-    color: white;
+    color: var(--T1-background-color);
 }
 .price-header{
     background-color: var(--T1-background-color);
     color: white;
+}
+
+.tick{
+
+    color: var(--T1-background-color);
+    background-color: rgb(228, 228, 222);
+    font: bold;
 }
