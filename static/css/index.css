@@ -339,7 +339,7 @@ min-height: 100px;
     background-color: var(--elite);
 }
 
-ul, li{
+ul, li .link-options {
 
     padding-left: 20px;
     list-style-type: disc;
