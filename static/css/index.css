@@ -361,3 +361,14 @@ td{
     font-size: 1rem;
 
 }
+
+.btn{
+
+    border-radius: 0px !important;
+}
+
+.card{
+
+    border-radius: 0px !important;
+    
+}
