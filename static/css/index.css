@@ -314,11 +314,22 @@ table {
     background-color: var(--elite);
 }
 
-ul,
-li .link-options {
+
+
+
+
+
+
+ul, .link-options li {
     padding-left: 20px;
     list-style-type: disc;
 }
+
+
+
+
+
+
 
 td {
     font-size: 1rem;
