@@ -4,7 +4,7 @@
 
 onload = function () {
 
-    this.setInterval(collapseIt, 3000);
+    this.setInterval(collapseIt, 6000);
 
 
 };
