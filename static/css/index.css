@@ -15,6 +15,8 @@
 html {
     /* --T1-background-color: #284A8C; */
     --T1-background-color: rgb(41, 58, 74);
+    --T1-background-pop:rgb(60, 83, 104);
+    
     --T1-foreground-color: #ffffff;
     
     --T1-hover-color: #fa7777;
@@ -64,6 +66,7 @@ body{
 }
 
 .c-button :hover {
+    /* background-color: var(--T1-background-color); */
     background-color: var(--T1-background-color);
 }
 
@@ -101,15 +104,24 @@ a,
     background-color: var(--T1-background-color) !important;
 }
 
-a,
-nav-link :link {
+
+.nav-link:link {
     color: var(--T1-foreground-color) !important;
     background-color: var(--T1-background-color) !important;
+    padding-left: 2px;
 }
 
 .nav-link:hover {
     color: var(--T1-hover-color)!important;
-    background-color: var(--T1-hover-backg) !important;
+    /* background-color: var(--T1-hover-backg) !important; */
+    background-color: var(--T1-background-pop) !important;
+
+    padding-left: 2px;
+ 
+ 
+
+
+
     -webkit-transition-duration: .4s;
     -o-transition-duration: .4s;
     transition-duration: .4s;
@@ -231,12 +243,16 @@ h2,
 
 .maintenance-banner{
 
+    width: 50%;
     background-color: #fde8cc;
 
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
+
+    margin-left:auto;
+    margin-right: auto;
 }
 
 .logo-section{
