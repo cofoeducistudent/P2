@@ -363,3 +363,9 @@ td {
     background-color: var(--T1-background-pop);
     color: var(--T1-foreground-color);
 }
+
+.navbar-collapse{
+
+    transition-duration: 1s;
+}
+ 
