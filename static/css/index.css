@@ -16,19 +16,11 @@ html {
     /* --T1-background-color: #284A8C; */
     --T1-background-color: rgb(41, 58, 74);
     --T1-background-pop: rgb(60, 83, 104);
-    
     --T1-foreground-color: #ffffff;
- 
-
-
     --T1-hover-color: #fa7777;
     --T1-linkbg-color: #fa7777;
     --T1-hover-backg: rgb(41, 58, 74);
-    
-    
     --T1-writing-color: #ffffff;
-  
-    
     --temp-block: #fcf8f8;
     margin: 0px;
     padding: 0px;
@@ -42,10 +34,8 @@ html {
 }
 
 body {
-
     font-family: 'Montserrat Alternates', sans-serif;
     font-family: 'Ubuntu Condensed', sans-serif;
-
     /* font-family: 'Roboto', sans-serif; */
 }
 
@@ -78,8 +68,6 @@ a,
     color: var(--T1-foreground-color);
     background-color: var(--T1-background-color);
 }
-
- 
 
 a,
 .navbar {
@@ -214,12 +202,19 @@ h2,
 }
 
 .maintenance-banner {
+    position: absolute;
     width: 60%;
     background-color: #fde8cc;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 10px;
+
+
+    left: 0;
+    right: 0;
+    
+    /* padding-left: 10px;
     padding-right: 10px;
+     */
     margin-left: auto;
     margin-right: auto;
 }
@@ -341,9 +336,7 @@ td {
     border-radius: 0px !important;
 }
 
-
-#profile{
-
+#profile {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
