@@ -374,3 +374,15 @@ td {
     height: calc(100% - 20%);
     width: auto;
 } */
+
+
+.price-bar{
+    display: inline;
+
+    background-color: var(--T1-hover-color);
+    color: black;
+    padding-left: 10px;
+    padding-right:10px;
+
+    border-radius: 10px;
+}
