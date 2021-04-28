@@ -368,4 +368,9 @@ td {
 
     transition-duration: 1s;
 }
- 
+
+/* .shrink-it{
+
+    height: calc(100% - 20%);
+    width: auto;
+} */
