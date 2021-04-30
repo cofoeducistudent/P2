@@ -395,3 +395,11 @@ td {
     box-shadow: 10px 10px 10px #888888;
 
 }
+
+.ghostIt{
+
+   opacity: 33% !important;
+
+    transition-duration: 4s !important;
+
+}
