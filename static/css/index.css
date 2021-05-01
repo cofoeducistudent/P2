@@ -34,8 +34,13 @@ html {
 }
 
 body {
-    font-family: 'Montserrat Alternates', sans-serif;
-    font-family: 'Ubuntu Condensed', sans-serif;
+
+    font-family: 'Mulish', sans-serif;
+
+    /* font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Ubuntu Condensed', sans-serif; */
+
+    
     /* font-family: 'Roboto', sans-serif; */
 }
 
@@ -402,3 +407,8 @@ td {
     transition-duration: 4s !important;
 
 }
+
+.word-shadow{
+    text-shadow: 10px 10px 10px #888888;
+}
+
