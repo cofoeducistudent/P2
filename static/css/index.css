@@ -424,3 +424,13 @@ td {
     width: 50%;
 
 }
+
+.diagram2, svg {
+
+    margin-left: auto;
+    margin-right: auto;
+
+    height:auto;
+    width: 60%;
+
+}
