@@ -34,13 +34,9 @@ html {
 }
 
 body {
-
     font-family: 'Mulish', sans-serif;
-
     /* font-family: 'Montserrat Alternates', sans-serif;
     font-family: 'Ubuntu Condensed', sans-serif; */
-
-    
     /* font-family: 'Roboto', sans-serif; */
 }
 
@@ -212,18 +208,13 @@ h2,
     background-color: #faec22;
     padding-top: 10px;
     padding-bottom: 10px;
-
-
     left: 0;
     right: 0;
-    
     padding-left: 10px;
     padding-right: 10px;
-    
     margin-left: auto;
     margin-right: auto;
-
-    opacity:75%;
+    opacity: 75%;
 }
 
 .logo-section {
@@ -321,22 +312,13 @@ table {
     background-color: var(--elite);
 }
 
-
-
-
-
-
 /* PRICE CARDS DOTS */
-ul, .link-options li {
+
+ul,
+.link-options li {
     padding-left: 20px;
     list-style-type: disc;
 }
-
-
-
-
-
-
 
 td {
     font-size: 1rem;
@@ -360,19 +342,17 @@ td {
     margin-right: auto;
 }
 
-
-.table-label{
+.table-label {
     text-align: left;
     font-size: .75rem;
 }
 
-.asap{
+.asap {
     background-color: var(--T1-background-pop);
     color: var(--T1-foreground-color);
 }
 
-.navbar-collapse{
-
+.navbar-collapse {
     transition-duration: 1s;
 }
 
@@ -382,55 +362,40 @@ td {
     width: auto;
 } */
 
-
-.price-bar{
-    display: inline;
-
-    background-color: var(--T1-hover-color);
-    color: black;
+.price-bar {
+    /* display: inline; */
+    margin-top: 10px;
+    background-color: transparent;
+    color: white;
     padding-left: 10px;
-    padding-right:10px;
-
+    padding-right: 10px;
     margin-left: auto;
     margin-right: auto;
-
- 
-
-    /* border-radius: 10px; */
-
     font-size: 1.5rem;
-
-    box-shadow: 10px 10px 10px #888888;
-
+    text-shadow: 3px 3px 3px #888888;
+    /* box-shadow: 10px 10px 10px #888888; */
 }
 
-.ghostIt{
-
- 
+.ghostIt {
     transition-duration: 4s !important;
-
 }
 
-.word-shadow{
+.word-shadow {
     text-shadow: 10px 10px 10px #888888;
 }
 
-.diagram, svg {
-
+.diagram,
+svg {
     margin-left: auto;
     margin-right: auto;
-
-    height:auto;
+    height: auto;
     width: 50%;
-
 }
 
-.diagram2, svg {
-
+.diagram2,
+svg {
     margin-left: auto;
     margin-right: auto;
-
-    height:auto;
+    height: auto;
     width: 60%;
-
 }
